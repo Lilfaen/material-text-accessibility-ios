@@ -27,7 +27,9 @@ let package = Package(
     targets: [
         .target(
             name: "MDFTextAccessibility",
-            path: "src",
-            publicHeadersPath: ".")
+            path: "Sources",
+            sources: ["MDFTextAccessibility"],
+            publicHeadersPath: "Include"
+        )
     ]
 )
